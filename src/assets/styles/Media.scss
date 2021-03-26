@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+    .login-container {
+        background-color: transparent;
+        padding: 0px;
+        border: none;
+        width: 100%;
+
+    }
+    .footer {
+        flex-direction: column;
+        align-items:flex-start;
+    }
+}

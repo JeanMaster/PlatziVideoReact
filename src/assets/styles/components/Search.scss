@@ -1,0 +1,30 @@
+.buscador {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ }
+.buscador-tittle {
+    color: white;
+    font-size: 25px;
+    padding: 20px; 
+}
+.input {
+    background-color: rgba(255,255,255,.1);
+    border: 2px solid white;
+    border-radius: 45px;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    height: 70px;
+    padding: 0 20px;
+    width: 85%;
+    outline: none;
+    margin-bottom: 20px;
+}
+::placeholder {
+    color: white;
+    font-size: 24px;
+}
